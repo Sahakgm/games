@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+    padding: 150px 0 0 100px;
+}
+.col1{
+	width:330px;
+	height:420px;
+    cursor: pointer;
+    margin:15px;
+    display: inline-block;
+}
+#btn{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 80px;
+    border-radius: 3%;
+    background-color: forestgreen;
+    font-size: 2em;
+    margin-left: 18px;
+}
+#btn:hover{
+    transform: scale(1.01);
+    background-color: chartreuse;
+    transition: 0.3s all;
+}
+img{
+    width:330px;
+    height:420px;
+    border-radius: 4%;
+}
+._img{
+    display: none;
+}
+#block{
+    display: none;
+}
+#start_image{
+    width: 1424px;
+    height: 1000px;
+}
